@@ -5,7 +5,7 @@ const config: Config = {
     content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
     theme: {
         fontFamily: {
-            sans: ["var(--font-inter)", ...fontFamily.sans],
+            sans: ["var(--font-poppins)", ...fontFamily.sans],
         },
         extend: {},
     },
