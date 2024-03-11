@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
     return (
         <html lang="en" className={poppins.variable} suppressHydrationWarning>
-            <body className="font-sans antialiased">
+            <body className="bg-background text-foreground font-sans antialiased">
                 <main>{children}</main>
             </body>
         </html>
